@@ -1,0 +1,13 @@
+Parece tener 6 containers. El primero y el tercero usarían la clase container-fluid para ocupar todo el ancho de la página. Un header y un footer.
+El resto , container solo.
+etiqueta o clase mark para resaltar texto.
+Usar pre para Bs As-Octubre.
+
+Punto de ruptura	    infijo de clase	            Dimensiones
+Extra Pequeño	        Ninguna	                    <576px
+Pequeña             	sm	                        ≥576px
+Medio	                md	                        ≥768px
+Largo	                lg	                        ≥992px
+Extra grande	        xl	                        ≥1200 píxeles
+extra extra grande	    xxl	                        ≥1400 píxeles
+

@@ -1,0 +1,101 @@
+.ba1-image {                
+    max-width: 100%;
+    height: 88vh;
+    background-image: linear-gradient( rgba(0, 0 , 0, .6), rgba(0,0,0, 0.6)), url('./imagenes tp integrador boostrap/ba1.jpg');
+    background-size: cover;
+    background-position: 0 50%;
+    margin-bottom: 1.2rem;
+}
+
+
+.ba1-content {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+
+.ba1-content-header {
+    margin: 0%;
+}
+
+.ba1-content-p {
+    margin: 1.2rem 0;
+}
+
+
+.boton-ba1-1 {
+    margin-right: 00.75rem;
+    font-weight: bold;
+}
+
+.boton-ba1-2 {
+    background-color: green;
+    border: none;
+    font-weight: bold;
+}
+
+.imagen {
+    width: 200px;
+}
+
+.ancho-honolulu {
+    width: 650px;
+}
+
+                                .bg-yellow {
+                                    background-color: #fcba03;
+                                }
+
+                                .bg-cyan {
+                                    background-color: #2aa6db;
+                                    color: #fff;
+                                }
+
+                                .bg-grey {
+                                    background-color: #4d5252;
+                                    color: #fff;
+                                }
+
+                                .bg-red {
+                                    background-color: #eb1c05;
+                                    color: #fff;
+                                }
+
+                                .bg-green {
+                                    background-color: #16e02e;
+                                }
+
+.formulario-container {
+    width: 85%;
+    margin: 2rem auto;
+    width: 35%;
+}
+
+.formulario-inputs-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.anchuraEnviar{
+    width: 100%;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 0.3rem;
+    margin-left: 1rem 1rem;
+    align-self: center;
+}
+
+.parrafo{
+    width: 45%;
+    text-align: right;
+}

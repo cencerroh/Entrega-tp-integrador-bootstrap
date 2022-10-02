@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conf Bs As</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+
+
+<!-- El header con los vinculos -->
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="imagenes tp integrador boostrap/codoacodo.png" alt="" width="48" height="48" class="d-inline-block align-text-top">
+                        <a class="navbar-brand " href="#">Conf Bs As</a>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#oradores">Los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#lugar-y-fecha">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#conviertete">Conviértete en orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Comprar tickets</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+<!-- El edificio de aguas -->
+
+    <section class="ba1-image">
+        <div class="ba1-content text-end">
+            <h1>Conf Bs As</h1>
+            <div class="d-flex justify-content-end">
+                <p class="parrafo">
+                    Bs As llega por primera vez a Argentina. Un evento para compartir 
+                    con nuestra comunidad el conocimiento y experiencia de los expertos que 
+                    están creando el futuro de Internet. Ven a conocer a miembros del 
+                    evento, a otros estudiantes de Codo a Codo y los oradores de primer 
+                    nivel que tenemos para ti. Te Esperamos!
+                </p>
+            </div>  
+            <div>
+                <button class="boton-ba1-1">Quiero ser Orador</button>
+                <button class="boton-ba1-2">Comprar Tickets</button>
+            </div>
+        </div>
+    </section>
+        
+    <main id="oradores">
+        <!-- las 3 fotos con los textos y los bg de colores-->
+            <h6 class="text-uppercase text-center">Conoce a los</h6>
+            <h2 class="text-uppercase text-center">Oradores</h2>
+            <article class="d-flex">
+                    <div>
+                        <img class="imagen" src="imagenes tp integrador boostrap/steve.jpg" alt="">
+                        <div >
+                            <span class="bg-yellow">JavaScript</span>
+                            <span class="bg-cyan">React</span>
+                            <h4>Steve Jobs</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro totam quam iusto cum perferendis neque, ipsam facere eius debitis? Assumenda expedita sunt atque quisquam deleniti fugit. Commodi natus sapiente neque.</p>
+                        </div>                     
+                    </div>
+
+                    <div>
+                        <img class="imagen" src="imagenes tp integrador boostrap/bill.jpg" alt="">
+                        <div >
+                            <span class="bg-yellow">JavaScript</span>
+                            <span class=" bg-cyan">React</span>
+                            <h4>Bill Gates</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro totam quam iusto cum perferendis neque, ipsam facere eius debitis? Assumenda expedita sunt atque quisquam deleniti fugit. Commodi natus sapiente neque.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img class="imagen" src="imagenes tp integrador boostrap/ada.jpeg" alt="">
+                        <div >
+                            <span class="bg-grey">Negocios</span>
+                            <span class="bg-red">StarUps</span>
+                            <h4>Ada Lovelace</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro totam quam iusto cum perferendis neque, ipsam facere eius debitis? Assumenda expedita sunt atque quisquam deleniti fugit. Commodi natus sapiente neque.</p>
+                        </div>
+                    </div>   
+                    
+                    
+            </article>
+        <!-- Foto de Honolulu y Bs As - Octubre -->
+        <section id="lugar-y-fecha">
+            <div class="hawaii-bsas-container d-flex ">
+                <img class="ancho-honolulu" src="imagenes tp integrador boostrap/honolulu.jpg" alt="Honolulu">
+                <div class=" p-3 hawaii-bsas-description text-bg-secondary">
+                    <h3>Bs As - Octubre</h3>
+                    <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (apróximadamente 600 km² de superficie).</p>
+                    <button class='text-white text-bg-secondary'>Conocé más</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONVIERTETE EN UN ORADOR -->
+        <section id="conviertete">
+                <!-- boostrap -->
+               <h6 class="text-center text-uppercase">Conviérte en un</h6>  
+                <h2 class="text-center text-uppercase">Orador</h2> 
+                <h5 class="text-center">Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos de qué quieres hablar</h4>
+            
+            <div class="formulario-container">
+                <form >
+                    <div class="formulario-inputs-text">
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Apellido">
+                        
+                    </div>
+                    <br>
+                    <textarea cols="57" rows="7" placeholder="¿Sobre qué quieres hablar?"></textarea>
+                    <small>Recuerda incluir un título para tu charla</small>
+                    <br>
+                    <button class="btn anchuraEnviar btn-primary bg-green" type="button">Enviar</button>
+                </form>   
+            </div>
+        </section>
+    </main>
+    <footer class="text-bg-primary p-3">
+        <ul class="d-flex justify-content-between">
+            <li>Preguntas <br> Frecuentes</li>
+            <li>Contáctanos</li>
+            <li>Prensa</li>
+            <li>Conferencias</li>
+            <li>Términos y <br> Condiciones </li>
+            <li>Privacidad</li>
+            <li>Estudiantes</li>
+        </ul>
+    </footer>
+</body>
+</html>
